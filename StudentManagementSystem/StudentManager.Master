@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentManager.master.cs" Inherits="StudentManagementSystem.StudentManager" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Helper/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header">
+            <img src="Images/SuperEasyRecipesLogo.gif" />
+        </div>
+        <div id="navigation">
+            <asp:Menu ID="Menu1" Orientation="Horizontal" runat="server"></asp:Menu>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div id="content"></div>
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            Copyright &copy: 2017 Fagbemi Babatunde. All right reserved.
+        </div>
+    </div>
+    </form>
+</body>
+</html>

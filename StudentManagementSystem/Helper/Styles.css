@@ -1,0 +1,35 @@
+﻿body
+{
+    margin: 0 auto;
+    width: 800px;
+    padding: 0;
+    background: #CCCCCC;
+}
+#header
+{
+    background-color: #FFCC66;
+    height: 90px;
+    width: 800px;
+    background-image: url('/images/SuperEasyRecipesLogo.gif');
+    background-repeat: no-repeat;
+}
+#navigation
+{
+    background-color: #F7F6F3;
+    text-align:center;
+}
+#content
+{
+    padding:5px;
+    background: White;
+}
+#footer 
+{
+    padding: 10px;
+    margin:0px;
+    width: 780px;
+    text-align: center;
+    background-color: #FFCC66;
+}
+
+
